@@ -2,24 +2,129 @@
 <HTML lang="es" data-bs-theme="light">
     <head>
         <title>Papitas, al Rescate!</title>
+        <link rel="icon" href="./icono.png" type="image/x-icon">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@6.0.0-alpha.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-B/GM4XqrwHnWXNOWMbloTmrYXZg10cakYGmpfsR/bbzQ6JAJI4ihuyADKLnBgrCe" crossorigin="anonymous">
         <link rel = "stylesheet" href = "style.css">
+        <script type="module"src="https://cdn.jsdelivr.net/npm/bootstrap@6.0.0-alpha.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-1a/pXj49ZQ1aHEmrJ+gMw1otqoVsYwlEnlD8mIfY2TV03r20Y0CN7uqx1tQogjPL"crossorigin="anonymous"></script>
     </head>
     <body>
-        <nav class="nav barra-rosa justify-content-center py-2 mt-4" arial-label="Nav Principal">
+        <nav class="nav barra-rosa justify-content-center py-4 mt-3" arial-label="Nav Principal">
+            <img src="./icono.png" alt="Papitas" class="img-center" width="90"> 
             <a class="nav-link" href="#inicio">Inicio</a>
             <a class="nav-link" href="#organizacion">Sobre nosotros</a>
             <a class="nav-link" href="#contacto">Contacto</a>
         </nav>
         <section id="inicio">
-            <h1 class="text-center titulo-amarillo">Papitas, al Rescate!</h1>
-            
+            <div class="container-fluid text-center mt-4">
+                <h1 class="text-center ">Papitas, al Rescate!</h1>
+                <img src="./papita4.png" alt="Papitas" class="img-fluid mx-auto d-block" width="800">
+                <a href="https://www-spcai-org.translate.goog/donate?_x_tr_sl=en&_x_tr_tl=es&_x_tr_hl=es&_x_tr_pto=tc" class="btn btn-link theme-success">HAZ TUS DONACIONES AQUI! :3</a>
+                <br><br>
+            </div>
+            <div class="container my-4">
+                <div class="row g-4 align-items-start">
+                    <div class="md:col-7">
+                        <h2 class="text-center">Nuestros pequeños rescates :3</h2>
+                    <div id="carouselExampleDark" class="carousel carousel-overlay slide" data-bs-theme="dark">
+                        <div class="carousel-inner"> 
+                            <div class="carousel-item active" data-bs-interval="10000">
+                            <img src="./rescate1.jpg" class="d-block w-100 rounded-5" alt="...">
+                            </div>
+                            <div class="carousel-item" data-bs-interval="2000">
+                            <img src="./rescate2.jpg" class="d-block w-100 rounded-5" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                            <img src="./papita6.jpg" class="d-block w-100 rounded-5" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                            <img src="./papita1.jpg" class="d-block w-100 rounded-5" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                            <img src="./papita5.jpg" class="d-block w-100 rounded-5" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                            <img src="./mondongo.jpg" class="d-block w-100 rounded-5" alt="...">
+                            </div>
+                        </div>
+                        <div class="carousel-overlay-controls">
+                            <button class="btn-icon btn-sm btn-subtle theme-secondary" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+                            <span class="carousel-icon-prev" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                            </button>
+                            <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                             <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="5" aria-label="Slide 6"></button>
+                            </div>
+                            <button class="btn-icon btn-sm btn-subtle theme-secondary" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+                            <span class="carousel-icon-next" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                            </button>
+                        </div>
+                    </div>
+                    </div>
+                    <div class="md:col-5">
+                    <img src="./Anuncio.png" class="img-fluid rounded-4" alt="Anuncio">
+                    </div>
+                </div>
+                </div>
         </section>
-        
+        <br><br>
+        <section id="organizacion" class="container my-6">
+            <h1 class="mb-5 text-center">Sobre nosotros :3</h1>
+                <div class="row g-5">
+                    <section class="card" style="max-width: 390px">
+                    <img src="./mondongo.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h4 class="card-title">Misión</h4>
+                        <p class="card-text">En Papitas, al Rescate! queremos que más perros y gatos reciban el cuidado que necesitan y encuentren un hogar seguro.</p>
+                        <a href="https://youtu.be/5SZYz7lZRRI?si=cKm0-7Rut-K7zdvX" class="btn-subtle theme-warning buttons">Conoce más</a>
+                    </div>
+                    </section>
+                    <section class="card" style="max-width: 390px">
+                        <img src="./equisde.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h4 class="card-title">Visión</h4>
+                            <p class="card-text">Queremos una comunidad donde cada animal reciba un trato digno y más familias se animen a adoptar de forma responsable.</p>
+                            <a href="https://youtu.be/5SZYz7lZRRI?si=cKm0-7Rut-K7zdvX" class="btn-subtle theme-warning buttons">Conoce más</a>
+                        </div>
+                    </section>
+                    <section class="card" style="max-width: 390px">
+                        <img src="./sixseven.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h4 class="card-title">Historia</h4>
+                            <p class="card-text">Papitas, al Rescate! nació de la tristeza de ver a tantos perros y gatos sin el cuidado que merecen, y de las ganas de cambiar esa realidad. Creamos este espacio para compartir sus historias y reunir a personas dispuestas a ayudar. Queremos que más animales reciban atención, cariño y la oportunidad de encontrar un hogar seguro.</p>
+                            <a href="https://youtu.be/5SZYz7lZRRI?si=cKm0-7Rut-K7zdvX" class="btn-subtle theme-warning buttons">Conoce más</a>
+                        </div>
+                    </section>
+                </div>
+        </section>
     </body>
 
-    <footer>
+    <footer id="contacto" class="barra-rosa mt-5 py-4">
+        <div class="container">
+        <form action="https://formspree.io/f/TU_ID" method="post" class="bg-white rounded-4 p-4 mx-auto" style="max-width: 440px;">
+        <h1 class="text-center">Contacto</h1>
+        <p>Déjanos tu nombre y correo para que podamos ponernos en contacto contigo y podamos salvar juntos a un animalito.</p>
 
+        <div class="mb-3">
+            <label for="contacto-nombre" class="form-label">Nombre</label>
+            <input id="contacto-nombre" name="name" type="text"
+                class="form-control" autocomplete="name" required>
+        </div>
+        <div class="mb-3">
+            <label for="contacto-email" class="form-label">Correo electrónico</label>
+            <input id="contacto-email" name="email" type="email" class="form-control" autocomplete="email" required>
+        </div>
+        <button type="submit" class="btn-solid theme-warning buttons"> Solicitar contacto</button>
+        </form>
+        <div class="text-center mt-4">
+            <p>© 2026 Papitas, al Rescate! Todos los derechos reservados.</p>
+            <p>Creado por Genesis Ordoñez :3</p>
+    </div>
     </footer>
 </HTML>

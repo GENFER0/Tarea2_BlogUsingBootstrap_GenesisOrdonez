@@ -1,9 +1,36 @@
 .barra-rosa{
-    background-color: #ff69b4;
+    background: linear-gradient(90deg, #ffb7d5, #ffe09b);
 }
-.barra-rosa .nav-link{
-    color:#7c2c52
+body{
+    background-color: #efe7c3;
+    color:brown
 }
-.titulo-amarillo{
-    color: #f7e018;
+.colorsito{
+    color:coral;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#carouselExampleDark {
+  max-width: 650px;
+}
+#carouselExampleDark .carousel-item img {
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+}
+h1 {
+  font-family: "Nunito", system-ui, sans-serif;
+  font-weight: 800;
+}
+.barra-rosa .nav-link {
+  font-family: "Nunito", system-ui, sans-serif;
+  font-size: 1.05rem;
+  font-weight: 700;
+  color: #752944;
+  border-radius: 999px;
+}
+.buttons{
+    background-color: #752944;
+    color:aliceblue;
+}
+.fondito{
+    background-color:#ffb7d5
 }
